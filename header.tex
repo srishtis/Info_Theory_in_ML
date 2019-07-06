@@ -1,0 +1,32 @@
+\usepackage{titling}
+
+\pretitle{%
+  \begin{center}
+  \LARGE
+  \includegraphics[width=10cm,height=10cm]{images/logo_big.jpg}\\[\bigskipamount]
+}
+\posttitle{\end{center}}
+
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead[LO,LE]{Delivery Innovation Engine}
+\fancyfoot[CO,CE]{Mu Sigma Confidential}
+\rhead{\includegraphics[width = .05\textwidth]{images/logo.png}}
+\fancyfoot[LE,RO]{\thepage}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{multirow}
+\usepackage{hhline}
+\usepackage{amsthm,amssymb}
+\usepackage{float}
+\numberwithin{figure}{section}
+\setcounter{tocdepth}{4}
+\theoremstyle{plain}
+\newtheorem{thm}{Theorem} % reset theorem numbering for each chapter
+
+\theoremstyle{definition}
+\newtheorem{definition}[thm]{Definition} % definition numbers are dependent on theorem numbers
+\newtheorem{example}[thm]{Example} % same for example numbers
+\DeclareUnicodeCharacter{2212}{-}
+\DeclareUnicodeCharacter{03B7}{η}
